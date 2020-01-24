@@ -10,7 +10,7 @@ Fourth Microverse HTML and CSS Project
 
 It is the Frontend of an Apple page
 
-![screenshot](./mint-clone.png)
+![screenshot](./images/screenshot-page.png)
 
 ## Built With
 
