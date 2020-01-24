@@ -567,7 +567,7 @@ body {
   background: linear-gradient(to right, transparent 0%, transparent 4%, rgb(80, 80, 80) 5%, rgb(80, 80, 80) 95%, transparent 96%, transparent 96%, transparent 100%);
 }
 
-.grid-navbar>.div-menu {
+.grid-navbar > .div-menu {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -586,8 +586,7 @@ body {
   margin-right: 0.5px;
 }
 
-
-.grid-navbar>.div-menu:hover:not(:last-child) {
+.grid-navbar > .div-menu:hover:not(:last-child) {
   background-color: rgb(39, 38, 36);
   background-image: linear-gradient(to bottom, rgb(70, 70, 70) 0%, rgb(80, 80, 80) 50%, rgb(80, 80, 80) 50%, rgb(60, 60, 60) 50%, rgb(70, 70, 70) 100%);
   cursor: pointer;
@@ -644,18 +643,18 @@ body {
   margin-bottom: 15px;
 }
 
-.grid-footer>div>span {
+.grid-footer > div > span {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 10.0008px;
   color: rgb(110, 110, 110);
 }
 
-.grid-footer>div>span>a {
+.grid-footer > div > span > a {
   text-decoration: none;
   color: rgb(0, 136, 204);
 }
 
-.grid-footer>div>span>a:hover {
+.grid-footer > div > span > a:hover {
   text-decoration: underline;
 }
 
@@ -687,8 +686,6 @@ body {
   color: white;
 }
 
-
-
 .line-n:last-of-type {
   font-size: 22px;
   font-family: 'Raleway', sans-serif;
@@ -718,7 +715,7 @@ body {
   margin-bottom: 135px;
 }
 
-.sections-style>h1 {
+.sections-style > h1 {
   cursor: pointer;
 }
 
