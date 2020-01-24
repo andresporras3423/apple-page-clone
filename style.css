@@ -619,7 +619,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 35px;
-    background: linear-gradient(to right, transparent 0%,transparent 10%,rgb(80,80,80) 11%,rgb(80,80,80) 89%,transparent 90%,transparent 90%,transparent 100%);
+    background: linear-gradient(to right, transparent 0%,transparent 4%,rgb(80,80,80) 5%,rgb(80,80,80) 95%,transparent 96%,transparent 96%,transparent 100%);
 }
 
 
