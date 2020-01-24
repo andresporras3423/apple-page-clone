@@ -750,13 +750,7 @@ body{
     color: white;
 }
 
-.motivational1{
-    margin-bottom:7.5px;
-}
 
-.motivational2{
-    margin-top:7.5px;
-}
 
 .line-n:last-of-type{
     font-size: 22px;
@@ -765,10 +759,10 @@ body{
     color: white;
     margin-top:25px;
     display:grid;
-    grid-template-columns: 5fr 17fr 1fr 5fr;
+    grid-template-columns: 3fr 11fr 1fr 3fr;
     grid-template-rows: 1fr;
     align-items: center; /*vertical align*/
-    justify-items: end; /*horizontal align*/
+    justify-items: center; /*horizontal align*/
 
 }
 
@@ -776,6 +770,13 @@ body{
     text-decoration: underline;
 }
 
+.motivational1{
+    margin-bottom:7.5px;
+}
+
+.motivational2{
+    margin-top:7.5px;
+}
 
 .sections-style{
     margin-bottom:135px;
