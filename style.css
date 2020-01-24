@@ -764,6 +764,12 @@ body{
     font-weight: 400;
     color: white;
     margin-top:25px;
+    display:grid;
+    grid-template-columns: 5fr 17fr 1fr 5fr;
+    grid-template-rows: 1fr;
+    align-items: center; /*vertical align*/
+    justify-items: end; /*horizontal align*/
+
 }
 
 .line-n:last-of-type:hover{
@@ -786,4 +792,9 @@ body{
     grid-template-rows: 1fr;
     align-items: center; /*vertical align*/
     justify-items: end; /*horizontal align*/
+}
+
+.icon-play{
+    width:30px;
+    height:30px;
 }
