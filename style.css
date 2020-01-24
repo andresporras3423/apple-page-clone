@@ -92,8 +92,6 @@ body {
   grid-column: 6;
 }
 
-/* Begin of TINB */
-
 .flex-content {
   display: flex;
 }
@@ -365,11 +363,6 @@ body {
   text-align: left;
 }
 
-/* End of TINB */
-
-/* Begin this is not flexbox */
-
-
 .float-xs-1 {
   float: left;
   width: 8.33%;
@@ -567,8 +560,6 @@ body {
   min-height: 1px;
 }
 
-/* Begin of this is not flexbox*/
-
 .grid-navbar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -581,11 +572,8 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   align-items: center;
-  /*vertical align*/
   justify-items: center;
-  /*horizontal align*/
   background-color: rgb(99, 98, 96);
-  /*background-image: linear-gradient(0deg, rgba(255,255,255,0.1) 5%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.1) 51%);*/
   background-image: linear-gradient(to bottom, rgb(100, 100, 100) 0%, rgb(110, 110, 110) 50%, rgb(110, 110, 110) 50%, rgb(90, 90, 90) 50%, rgb(100, 100, 100) 100%);
   color: white;
   border-left-color: rgb(120, 120, 120);
@@ -601,7 +589,6 @@ body {
 
 .grid-navbar>.div-menu:hover:not(:last-child) {
   background-color: rgb(39, 38, 36);
-  /*background-image: linear-gradient(0deg, rgba(255,255,255,0.1) 5%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.1) 51%);*/
   background-image: linear-gradient(to bottom, rgb(70, 70, 70) 0%, rgb(80, 80, 80) 50%, rgb(80, 80, 80) 50%, rgb(60, 60, 60) 50%, rgb(70, 70, 70) 100%);
   cursor: pointer;
 }
@@ -647,7 +634,6 @@ body {
   display: grid;
   grid-template-columns: 3fr 16fr 3fr;
   margin-top: 100px;
-
 }
 
 .grid-footer {
@@ -662,7 +648,6 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 10.0008px;
   color: rgb(110, 110, 110);
-
 }
 
 .grid-footer>div>span>a {
@@ -713,8 +698,8 @@ body {
   display: grid;
   grid-template-columns: 12fr 44fr 3fr 12fr;
   grid-template-rows: 1fr;
-  align-items: center;/*vertical align*/
-  justify-items: center; /*horizontal align*/
+  align-items: center;
+  justify-items: center;
 }
 
 .line-n:last-of-type:hover {
@@ -741,8 +726,8 @@ body {
   display: grid;
   grid-template-columns: 18fr 1fr;
   grid-template-rows: 1fr;
-  align-items: center; /*vertical align*/
-  justify-items: end;  /*horizontal align*/
+  align-items: center;
+  justify-items: end;
 }
 
 .icon-play {
