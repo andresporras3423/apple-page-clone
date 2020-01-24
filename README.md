@@ -22,7 +22,7 @@ It is the Frontend of an Apple page
 
 ## Live Demo
 
-[Live Demo](https://andresporres.000webhostapp.com/apple-page-clone/index.html)
+[Live Demo](https://andresporras3423.github.io/apple-page-clone/index.html)
 
 ## 🤝 Contributing
 
