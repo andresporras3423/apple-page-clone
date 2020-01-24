@@ -669,6 +669,7 @@ body {
 .images > div > img {
   width: 338px;
   height: auto;
+  cursor: pointer;
 }
 
 .top-section {
