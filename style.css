@@ -666,6 +666,11 @@ body {
   background-color: white;
 }
 
+.images > div > img {
+  width: 338px;
+  height: auto;
+}
+
 .top-section {
   background: url(images/background-image.jpg) 50% 100% no-repeat;
   background-size: 1440px 1315px;
